@@ -9,10 +9,10 @@ import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.interactions.commands.build.Commands;
 import net.dv8tion.jda.api.requests.GatewayIntent;
-import de.laurenzschmidt.Messages.MessageManager;
+import de.laurenzschmidt.message.MessageManager;
 //import org.example.Messages.MuteMessage;
-import de.laurenzschmidt.Messages.NeinMessage;
-import de.laurenzschmidt.Messages.PingMessage;
+import de.laurenzschmidt.message.NeinMessage;
+import de.laurenzschmidt.message.PingMessage;
 import org.example.commands.*;
 import de.laurenzschmidt.listener.MessageListener;
 

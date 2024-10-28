@@ -1,8 +1,5 @@
-package de.laurenzschmidt.Messages;
+package de.laurenzschmidt.message;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.api.JDABuilder;
-
-import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 
 public abstract class Message {

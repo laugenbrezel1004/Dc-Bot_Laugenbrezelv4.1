@@ -1,4 +1,4 @@
-package de.laurenzschmidt.Messages;
+package de.laurenzschmidt.message;
 
 import java.util.HashMap;
 import java.util.Map;

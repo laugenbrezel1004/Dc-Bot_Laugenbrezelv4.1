@@ -1,4 +1,4 @@
-package de.laurenzschmidt.Messages;
+package de.laurenzschmidt.message;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 

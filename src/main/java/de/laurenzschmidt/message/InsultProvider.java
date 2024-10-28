@@ -1,4 +1,4 @@
-package de.laurenzschmidt.Messages;
+package de.laurenzschmidt.message;
 
 import java.util.ArrayList;
 import java.util.List;
