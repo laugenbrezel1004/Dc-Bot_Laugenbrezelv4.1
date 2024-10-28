@@ -11,7 +11,7 @@ public abstract class Message {
         this.name = name;
     }
 
-    abstract void execute(MessageReceivedEvent event);
+    protected abstract void execute(MessageReceivedEvent event);
 
     public String getName() {
         return this.name;

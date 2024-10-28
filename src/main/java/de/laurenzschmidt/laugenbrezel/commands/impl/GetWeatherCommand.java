@@ -23,7 +23,7 @@ public class GetWeatherCommand extends Command {
     private static final Gson GSON = new Gson();
 
     @Override
-    void execute(SlashCommandInteractionEvent event) {
+    public void execute(SlashCommandInteractionEvent event) {
         String city = Objects.requireNonNull(event.getOption("stadt")).getAsString();
         String apiUrl = "https://api.weatherbit.io/v2.0/current?city=" + city + "&key=" + apiKey;
         try {

@@ -13,7 +13,7 @@ public class MuteMessage extends Message {
     }
 
     @Override
-    void execute(MessageReceivedEvent event) {
+    public void execute(MessageReceivedEvent event) {
         // Ignore messages from bots
         if (event.getAuthor().isBot()) return;
         if (event.getMessage().getContentRaw().equalsIgnoreCase("arschloch")) {

@@ -10,7 +10,7 @@ public abstract class Command {
         this.name = name;
     }
 
-    abstract void execute(SlashCommandInteractionEvent event);
+    protected abstract void execute(SlashCommandInteractionEvent event);
 
     public String getName() {
         return this.name;

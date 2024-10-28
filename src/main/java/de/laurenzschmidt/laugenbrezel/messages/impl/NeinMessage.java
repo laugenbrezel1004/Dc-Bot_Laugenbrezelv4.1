@@ -10,7 +10,7 @@ public class NeinMessage extends Message {
     }
 
     @Override
-    void execute(MessageReceivedEvent event) {
+    public void execute(MessageReceivedEvent event) {
         if (event.getMessage().getContentRaw().equalsIgnoreCase("nein")) {
             event.getChannel().sendMessage("Doch").submit();
         }

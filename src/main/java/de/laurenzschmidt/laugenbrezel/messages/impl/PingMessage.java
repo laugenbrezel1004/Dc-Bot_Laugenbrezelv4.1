@@ -10,7 +10,7 @@ public class PingMessage extends Message {
     }
 
     @Override
-    void execute(MessageReceivedEvent event) {
+    public void execute(MessageReceivedEvent event) {
         event.getChannel().sendMessage("pong").submit();
     }
 
